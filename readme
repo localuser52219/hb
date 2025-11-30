@@ -1,0 +1,59 @@
+📅 習慣養成日曆 (Habit Tracker Pro)
+
+這是一個基於 React 的習慣養成應用程式，結合了「日曆打卡」、「點數獎勵系統」以及「多習慣管理」功能。透過遊戲化的方式，幫助使用者建立良好的生活習慣。
+
+✨ 主要功能
+
+多習慣管理：可自訂多個習慣（如：閱讀、健身、喝水），並設定不同的獎勵點數。
+
+互動式日曆：視覺化顯示每日達成率，點擊日期即可進行補打卡或查看詳情。
+
+點數獎勵商店：完成習慣獲得點數，可用於兌換自訂的獎勵（如：喝飲料、看電影）。
+
+數據持久化：所有數據皆儲存於瀏覽器 LocalStorage，無需登入即可使用，關閉視窗不流失。
+
+響應式設計：支援手機與電腦版面，操作流暢。
+
+🛠️ 技術棧
+
+框架: React (使用 Vite 建置)
+
+樣式: Tailwind CSS
+
+圖示: Lucide React
+
+狀態管理: React Hooks (useState, useEffect)
+
+🚀 如何在本地運行
+
+複製專案 (Clone)
+
+git clone [https://github.com/your-username/habit-tracker.git](https://github.com/your-username/habit-tracker.git)
+cd habit-tracker
+
+
+安裝依賴
+
+npm install
+
+
+啟動開發伺服器
+
+npm run dev
+
+
+接著打開瀏覽器訪問 http://localhost:5173 即可使用。
+
+📱 使用說明
+
+新增習慣：前往「設定」頁面，輸入習慣名稱與單次獎勵點數。
+
+每日打卡：在「首頁日曆」點擊當日日期，勾選已完成的習慣。
+
+兌換獎品：累積足夠點數後，前往「兌換商店」兌換給自己的獎勵。
+
+🤝 貢獻
+
+歡迎提交 Pull Request 或 Issue 來協助改進這個專案！
+
+Made with ❤️ by 
